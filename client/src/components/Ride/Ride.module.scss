@@ -1,0 +1,36 @@
+@import "./../../assets/styles/theme.scss";
+
+.container {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $blue40;
+  cursor: pointer;
+  &:hover {
+    background-color: $grey40;
+  }
+
+  .left {
+    padding-left: 15px;
+    :first-child {
+      font-size: 1.2em;
+      font-weight: bolder;
+    }
+    :last-child {
+      font-size: 0.8em;
+    }
+  }
+
+  .right {
+    padding-right: 15px;
+    font-size: 2em;
+    font-weight: bolder;
+  }
+}
+
+.exceeded {
+  background-color: $red;
+  color: #fff;
+}

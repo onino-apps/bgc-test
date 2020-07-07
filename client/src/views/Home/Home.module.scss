@@ -1,0 +1,41 @@
+@import "./../../assets/styles/theme.scss";
+@import "./../../assets/styles/measures.scss";
+
+.container {
+  width: 100vw;
+  height: auto;
+  button {
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: $purple80;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bolder;
+    display: block;
+    padding: 0px 15px;
+    margin: 20px auto;
+  }
+}
+
+.ride-list-container {
+  width: 600px;
+  margin: auto;
+}
+
+@media (max-width: $bp-mobile) {
+  .ride-list-container {
+    width: 100%;
+    min-width: 300px;
+    margin: auto;
+  }
+  .container {
+    button {
+      height: 50px;
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+    }
+  }
+}

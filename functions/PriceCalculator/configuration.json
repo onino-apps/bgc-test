@@ -1,0 +1,24 @@
+{
+  "initial_charge": 1,
+  "default_charge": 0.5,
+  "miles_divider": 5,
+  "distance_min": 1,
+  "duration_min": 60,
+  "busy_periods": [
+    {
+      "startTime": 0,
+      "endTime": 6,
+      "additional_charge": 0.5
+    },
+    {
+      "startTime": 20,
+      "endTime": 0,
+      "additional_charge": 0.5
+    },
+    {
+      "startTime": 16,
+      "endTime": 19,
+      "additional_charge": 1
+    }
+  ]
+}
